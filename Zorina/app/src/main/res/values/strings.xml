@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Zorina</string>
+    <string name="login">Sign In</string>
+    <string name="signup">SignUp</string>
+    <string name="password">Password</string>
+    <string name="username">User Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="email">Email</string>
+    <string name="firstName">Full Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="changeSignUp">Not yet registered? SignUp Now</string>
+    <string name="changeSignIn">All Ready registered? SignIn </string>
+    <string name="CartTitle">Your Bag</string>
+    <string name="CartSubTitle">Enjoin Shopping</string>
+    <string name="CartPriceTitle">Rs.</string>
+    <string name="CartPriceTitleEnd">.00</string>
+    <string name="CartItemTitle">Items</string>
+    <string name="ProductViewTitle">Product View</string>
+    <string name="landingTitle">Get Start </string>
+    <string name="userAccountUpdateButton">Update </string>
+    <string name="userAccountChangePasswordButton">Change password </string>
+    <string name="userAccountTitle">User Account</string>
+</resources>
