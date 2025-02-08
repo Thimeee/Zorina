@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Zorina"
         tools:targetApi="31">
         <activity
-            android:name=".UserAccountActivity"
+            android:name=".SpalshScreenAdminActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,17 +21,42 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".AdminSignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="false" />
 
+
+        <activity
+            android:name=".SingleProductViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CoustomerOrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user_profile_update"
+            android:exported="false" />
+        <activity
+            android:name=".UserAccountActivity"
+            android:exported="false" />
         <activity
             android:name=".TestActivity"
             android:exported="false" />
 
         <activity
-            android:name=".AdminLogIn"
-            android:exported="false" />
-        <activity
             android:name=".SplashScreenActivity"
-            android:exported="false" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".CustomerProductViewActivity"
             android:exported="false" />

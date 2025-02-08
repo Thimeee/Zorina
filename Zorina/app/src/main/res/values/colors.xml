@@ -3,6 +3,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="purple">#8692f7</color>
-    <color name="purpleFocus">#2B3CE2</color>
+    <color name="purpleFocus">#485497</color>
     <color name="BlackOpacity">#E7686868</color>
+    <color name="whiteOpacity">#5F8692F7</color>
+    <color name="whiteOpacity2">#B7FFFFFF</color>
+    <color name="whiteOpacity3">#94FFFFFF</color>
+    <color name="whiteOpacity4">#4C8C8C8C</color>
+    <color name="adminColor">#AA999999</color>
+    <color name="green">#4CAF50</color>
 </resources>

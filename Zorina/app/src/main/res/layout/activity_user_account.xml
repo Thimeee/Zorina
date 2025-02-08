@@ -131,7 +131,7 @@
         app:layout_constraintTop_toBottomOf="@+id/coustomerAccountPassword" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/ChangePasswordButton"
         android:layout_width="317dp"
         android:layout_height="54dp"
 

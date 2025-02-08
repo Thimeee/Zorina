@@ -29,5 +29,11 @@ public class MainActivity extends AppCompatActivity {
             startActivity(goSignUpIntent);
         });
 
+        TextView customerSignInButton = findViewById(R.id.customerSignInButton);
+        customerSignInButton.setOnClickListener(view -> {
+            Intent goHomeIntent = new Intent(MainActivity.this, HomeActivity.class);
+            startActivity(goHomeIntent);
+        });
+
     }
 }
