@@ -1,5 +1,6 @@
 package com.zorina.lk.zorina;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -17,6 +18,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.google.android.material.navigation.NavigationView;
+import com.zorina.lk.zorina.model.AdminSessionManager;
 import com.zorina.lk.zorina.navigation.AddProductFragment;
 import com.zorina.lk.zorina.navigation.AllProductFragment;
 import com.zorina.lk.zorina.navigation.CoustomerFragment;
@@ -73,7 +75,11 @@ public class AdminDashboardActivity extends AppCompatActivity {
                 }else if(item.getItemId() == R.id.nav_cus){
                     loadFragment(new CoustomerFragment());
 
+                }else if(item.getItemId() == R.id.nav_logOut){
+                    adminLogOut();
                 }
+
+
 
 
 
@@ -85,6 +91,14 @@ public class AdminDashboardActivity extends AppCompatActivity {
         });
 
     }
+
+    private  void adminLogOut(){
+        AdminSessionManager adminSession =new AdminSessionManager(this);
+        adminSession.logout();
+        Intent goCartIntent = new Intent(AdminDashboardActivity.this, AdminSignInActivity.class);
+        startActivity(goCartIntent);
+    }
+
     private void loadFragment(Fragment fragment){
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();

@@ -37,8 +37,13 @@
     <string name="text_zorina">Zorina Clothing </string>
     <string name="addProductTitle">Add Product </string>
     <string name="addProductName">Product Name </string>
-    <string name="addProductCode">Product Code </string>
+    <string name="addProductCode">Product Price </string>
     <string name="addProductQty"> Qty </string>
+    <string name="addProduct2Xl"> 2Xl </string>
+    <string name="addProductXl"> XL </string>
+    <string name="addProductL"> L </string>
+    <string name="addProductM"> M </string>
+    <string name="addProductS"> S </string>
     <string name="addProductButton"> Add Product </string>
     <string name="allProductTitle"> All Products </string>
     <string name="allProductActive"> Active </string>
@@ -52,6 +57,7 @@
     <string name="AdminDeatilesUpdate"> Update  </string>
     <string name="AdminOrderButton"> View  </string>
     <string name="AdminLoginTitle"> Admin Login  </string>
+    <string name="AdminLogOut"> LogOut  </string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

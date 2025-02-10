@@ -29,25 +29,12 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="100dp"
         android:layout_marginEnd="32dp"
-        android:background="@drawable/add_product_input_editor"
         android:padding="10dp"
         android:spinnerMode="dropdown"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.37"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Spinner
-        android:id="@+id/categoriesSpinner2"
-        android:layout_width="320dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="52dp"
-        android:background="@drawable/add_product_input_editor"
-        android:padding="10dp"
-        android:spinnerMode="dropdown"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/adminProductCode" />
 
     <EditText
         android:id="@+id/adminProductName"
@@ -68,7 +55,7 @@
         app:layout_constraintTop_toBottomOf="@+id/categoriesSpinner" />
 
     <EditText
-        android:id="@+id/adminProductCode"
+        android:id="@+id/adminProductQty"
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginTop="40dp"
@@ -81,10 +68,10 @@
         android:textColorHighlight="@color/cardview_dark_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/adminProductQty" />
+        app:layout_constraintTop_toBottomOf="@+id/adminProductPrice" />
 
     <EditText
-        android:id="@+id/adminProductQty"
+        android:id="@+id/adminProductPrice"
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginTop="40dp"
@@ -132,10 +119,10 @@
         android:id="@+id/cardView2"
         android:layout_width="110dp"
         android:layout_height="160dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="36dp"
         app:layout_constraintStart_toEndOf="@+id/cardView3"
-        app:layout_constraintTop_toBottomOf="@+id/categoriesSpinner2" />
+        app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
 
     <Button
         android:id="@+id/button3"
@@ -152,5 +139,62 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView2"
         app:layout_constraintVertical_bias="0.537" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addProduct2Xl"
+        android:textColor="@color/BlackOpacity"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/checkBox2"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox2"
+        app:layout_constraintHorizontal_bias="0.614"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/checkBox2" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:text="@string/addProductXl"
+        android:textColor="@color/BlackOpacity"
+        app:layout_constraintBottom_toBottomOf="@+id/checkBox3"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox3"
+        app:layout_constraintTop_toTopOf="@+id/checkBox3" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="36dp"
+        android:text="@string/addProductL"
+        android:textColor="@color/BlackOpacity"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox4"
+        app:layout_constraintTop_toBottomOf="@+id/adminProductQty" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:text="@string/addProductM"
+        android:textColor="@color/BlackOpacity"
+        app:layout_constraintBottom_toBottomOf="@+id/checkBox3"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox5"
+        app:layout_constraintTop_toTopOf="@+id/checkBox3" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:text="@string/addProductS"
+        android:textColor="@color/BlackOpacity"
+        app:layout_constraintBottom_toBottomOf="@+id/checkBox4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/checkBox4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
