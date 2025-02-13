@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Zorina</string>
+    <string name="login">Sign In</string>
+    <string name="signup">SignUp</string>
+    <string name="password">Password</string>
+    <string name="username">User Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="email">Email</string>
+    <string name="firstName">Full Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="changeSignUp">Not yet registered? SignUp Now</string>
+    <string name="changeSignIn">All Ready registered? SignIn </string>
+    <string name="CartTitle">Your Bag</string>
+    <string name="CartSubTitle">Enjoin Shopping</string>
+    <string name="CartPriceTitle">Rs.</string>
+    <string name="CartPriceTitleEnd">0</string>
+    <string name="CartItemTitle">Items</string>
+    <string name="ProductViewTitle">Product View</string>
+    <string name="landingTitle">Get Start </string>
+    <string name="userAccountUpdateButton">Update </string>
+    <string name="userAccountChangePasswordButton">Change password </string>
+    <string name="userAccountTitle">User Account</string>
+    <string name="searchTitle">Search </string>
+    <string name="ordersTitle">My Orders </string>
+    <string name="orderId">Order Id </string>
+    <string name="trackOrder">Track Order </string>
+
+    <!--    admin -->
+    <string name="text_adminPanel">Admin panel</string>
+    <string name="text_dashboard">Dashboard</string>
+    <string name="text_addProduct">Add product </string>
+    <string name="text_Product">Products </string>
+    <string name="text_Orders">Orders </string>
+    <string name="text_users">Users </string>
+    <string name="text_admin"> Profile </string>
+
+    <string name="text_zorina">Zorina Clothing </string>
+    <string name="addProductTitle">Add Product </string>
+    <string name="addProductName">Product Name </string>
+    <string name="addProductCode">Product Price </string>
+    <string name="addProductQty"> Qty </string>
+    <string name="addProduct2Xl"> 2Xl </string>
+    <string name="addProductXl"> XL </string>
+    <string name="addProductL"> L </string>
+    <string name="addProductM"> M </string>
+    <string name="addProductS"> S </string>
+    <string name="addProductButton"> Add Product </string>
+    <string name="allProductTitle"> All Products </string>
+    <string name="allProductActive"> Active </string>
+    <string name="allProductDeactive"> Deactive </string>
+    <string name="allCustomer"> Customers </string>
+    <string name="AdminName"> Name </string>
+    <string name="AdminEmail"> Email </string>
+    <string name="AdminMobile"> Mobile </string>
+    <string name="AdminUserName"> User Name </string>
+    <string name="AdminPassword"> Password </string>
+    <string name="AdminDeatilesUpdate"> Update  </string>
+    <string name="AdminOrderButton"> View  </string>
+    <string name="AdminLoginTitle"> Admin Login  </string>
+    <string name="AdminLogOut"> LogOut  </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

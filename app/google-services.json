@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "595975203739",
+    "project_id": "zorina-91234",
+    "storage_bucket": "zorina-91234.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595975203739:android:536d4fc60a35944a934f3e",
+        "android_client_info": {
+          "package_name": "com.zorina.lk.zorina"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQzLbgJN959xMiAZf28DGhMtYKjNv_M94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

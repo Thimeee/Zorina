@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--    <solid android:color="#5EFFFFFF"/> &lt;!&ndash; Background color &ndash;&gt;-->
+    <solid android:color="@color/whiteOpacity"/> <!-- Background color -->
+
+    <!-- Different corner radius for each corner -->
+    <corners
+        android:topLeftRadius="250dp"
+        android:topRightRadius="250dp"
+        android:bottomLeftRadius="0dp"
+        android:bottomRightRadius="0dp"
+        />
+
+</shape>
